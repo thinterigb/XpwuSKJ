@@ -2,7 +2,6 @@
 name: Bug report
 about: Something is not working as expected
 title: ''
-labels: bug
 assignees: ''
 
 ---
@@ -25,7 +24,6 @@ A clear and concise description of what you expected to happen.
 **Hardware/Compute device (please complete the following information):**
 - Compute device name: [e.g. RTX2080Ti]
 - OpenCL/CUDA driver name: [e.g. NVIDIA DRIVER]
-- OpenCL/CUDA driver version: [e.g. 465.21]
 - OpenCL/CUDA driver source: [e.g. runtime installer/.exe installer]
 
 **Hashcat version (please complete the following information):**
@@ -50,7 +48,7 @@ Post hashcat -I output
 ```
 
 ```
-On Linux: post lspci output
+On Linux: 
 ```
 
 **Additional context**
